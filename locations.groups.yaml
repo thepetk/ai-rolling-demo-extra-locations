@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: default-rolling-demo-groups
+spec:
+  type: url
+  target: ./groups/**/*.yaml

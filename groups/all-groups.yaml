@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rhdh-pai
+  description: Red Hat Developer Hub Plugins & AI Team
+spec:
+  type: team
+  profile:
+    displayName: RHDH Plugins & AI Team
+    email: team-devai@redhat.com
+  children: []
